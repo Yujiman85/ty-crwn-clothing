@@ -1,0 +1,101 @@
+[33mcommit f13cd3a24548cd7e223c3cb26375d1feb0180760[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sun Mar 21 15:13:37 2021 -0400
+
+    added cartIcon and cartDropdown components to the application, also implemented cart reducer
+
+[33mcommit 26f4a436f5802db52c2840c148a2287f50f53ce6[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sat Mar 20 16:41:14 2021 -0400
+
+    added CartDropdown component, no option to show or hide yet
+
+[33mcommit e61d73b9f5aef91c1c6b3cd2b702e3868234fa56[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sat Mar 20 15:38:06 2021 -0400
+
+    updating the app to redirect to home if user is signed in
+
+[33mcommit b5abdd36e85053777748c787d7b0f55baef7d54b[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Mon Mar 15 18:27:46 2021 -0400
+
+    added redux, and implemented userReducer and userActions to header and app components
+
+[33mcommit 6964e666b901df09643c95249b0540414e9c460e[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sun Mar 7 11:35:22 2021 -0500
+
+    finished sign in handleSubmit method
+
+[33mcommit 973c5e7bfb16be86aa79f9cb101e07f09b807518[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sun Mar 7 11:16:28 2021 -0500
+
+    implemented firebase utils, included ability to store authenticated users into our firestore database
+
+[33mcommit 50e8f25a441b7491ab3268ce3cebfa259d957a7f[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Tue Feb 23 21:13:33 2021 -0500
+
+    integrated Firebase into application, created sign in page with sign in component and sign in with Google
+
+[33mcommit a295af9ec5d503c27d7965ebdc3d02244702b2e3[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sun Feb 21 14:03:20 2021 -0500
+
+    created CustomButton component
+
+[33mcommit a6da0d8774d1eb05d6736de469c14d5a6e7a0759[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sat Feb 20 20:22:12 2021 -0500
+
+    created sign-in page and form input component
+
+[33mcommit 9af228357085003114026ed91651656743b757a6[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sat Feb 20 11:55:30 2021 -0500
+
+    added Header component and links to home, shop page, and contact
+
+[33mcommit 87284937df744528a2f413cc49c09773882a8bb4[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Thu Feb 18 20:16:53 2021 -0500
+
+    Continued building CollectionItem component to now display a photo, name, and price for each item
+
+[33mcommit 12f95f762ee7b8a19941738a608ab0c82fc7095f[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Thu Feb 18 19:47:20 2021 -0500
+
+    Created shop page and component for collection previews
+
+[33mcommit 0b303ddc311db390f968405ad6589d26e2d011ed[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Wed Feb 17 20:35:08 2021 -0500
+
+    update our menu-items to navigate withRouter HOC
+
+[33mcommit 52b18ecf7d743665930a244d6368865098c270e2[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Mon Feb 15 18:46:59 2021 -0500
+
+    broken the homepage into smaller components and finished styling the MenuItem component
+
+[33mcommit 6f79d6a27bc991ef76982d6c004c93a0ab02f0bc[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sun Feb 14 16:36:14 2021 -0500
+
+    separated code into components and added code for mapping over MenuItem components with appropriate sizes
+
+[33mcommit 51ca491df854e18274747cb51d4008bf0c03ec84[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sun Feb 14 14:47:06 2021 -0500
+
+    created project with create-react-app and added files for homepage
+
+[33mcommit 4aba7e9bd5969cc0d3de8161239bf904aabc10a2[m
+Author: Ty Jenkins <cientifik85@gmail.com>
+Date:   Sun Feb 14 13:47:50 2021 -0500
+
+    Initialize project using Create React App
