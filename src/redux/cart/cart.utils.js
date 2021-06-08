@@ -13,10 +13,9 @@ export const addItemToCart = (cartItems, cartItemToAdd) => {
 }
 
 export const decreaseQuantityInCart = (cartItems, cartItemToRemove) => {
-    const existingCartItem = cartItems.find(cartItem => cartItem.id === cartItemToRemove.id)
 
     //If item quantity is 1 then it will be removed from the cart
-    if (existingCartItem.quantity === 1) {
+    if (cartItemToRemove.quantity === 1) {
         return cartItems.filter (cartItem => cartItem.id !== cartItemToRemove.id)
     }
     
