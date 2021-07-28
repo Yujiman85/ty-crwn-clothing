@@ -42,6 +42,7 @@ class App extends Component {
   }
 
   render() {
+
     return (
       <div>
         {/* Header outside of switch to make it omnipresent */}
