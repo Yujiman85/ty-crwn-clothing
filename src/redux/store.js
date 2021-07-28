@@ -5,7 +5,7 @@ import logger from 'redux-logger';
 import rootReducer from './RootReducer';
 
 //Array of middlewares to be applied
-const middleWares = [];
+let middleWares = [];
 
 if (process.env.NODE_ENV === 'development') {
     middleWares.push(logger);
